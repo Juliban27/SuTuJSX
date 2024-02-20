@@ -1,4 +1,4 @@
-import logoSutu from "../assets/img/logo.png";
+import logoSutu from "../../public/img/logo.png";
 import {CartWidget} from './CartWidget';
 export const NavBar = () => {
     return (

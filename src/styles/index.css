@@ -13,6 +13,13 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.cotizacionDolar{
+  color: #f9f9f9;
+}
+.producto{
+  color: #f9f9f9;
+}
+
 a {
   font-weight: 500;
   color: #646cff;
