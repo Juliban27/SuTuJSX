@@ -1,4 +1,4 @@
-
+import { Link } from "react-router-dom";
 
 export const Item = ({  product }) => {
     return (
@@ -9,10 +9,12 @@ export const Item = ({  product }) => {
             <p className="descripcionProducto">{product.description}</p>
             <p className="stockProducto">{product.stock}</p>
             <div className="precioAgregar">
-                <span className="precioProducto">{product.price}</span>
+                <span className="precioProducto">{product.precio}</span>
+                <Link to={`/item/${product.id}`}>
                 <button className="agregarCarritoBoton">
-                    Agregar al carrito
+                    Ver Producto
                 </button>
+                </Link>
             </div>
         </div>
     );
