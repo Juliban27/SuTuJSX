@@ -2,72 +2,72 @@
     {
         "id":1,
         "nombre":"4080ti Founders Edition",
-        "marca":"NVDIA",
+        "marca":"nvidia",
         "precio":5133440,
-        "tipo": "GPU",
+        "tipo": "gpu",
         "stock":20,
         "img": "4080FE.jpg"
     },
     {
         "id":2,
         "nombre":"7900xtx 24gb",
-        "marca":"AMD",
+        "marca":"amd",
         "precio":3679163,
-        "tipo": "GPU",
+        "tipo": "gpu",
         "stock":17,
         "img":"7900xtx.jpg"
     },
     {
         "id":3,
         "nombre":"NZXT Kraken Elite",
-        "marca":"NZXT",
+        "marca":"nzxt",
         "precio":1023526,
-        "tipo": "Cooler",
+        "tipo": "cooler",
         "stock":13,
         "img":"NZXTKraken.jpg"
     },
     {
         "id":4,
         "nombre":"iCUE H150i Elite",
-        "marca":"Corsair",
+        "marca":"corsair",
         "precio":711133,
-        "tipo": "Cooler",
+        "tipo": "cooler",
         "stock":13,
         "img":"ICUEH150i.jpg"
     },
     {
         "id":5,
         "nombre":"VENGEANCE DDR5 RAM",
-        "marca":"Corsair",
+        "marca":"corsair",
         "precio":272676,
-        "tipo": "RAM",
+        "tipo": "ram",
         "stock":14,
         "img":"ramcorsair.jpg"
     },
     {
         "id":6,
         "nombre":"Patriot Viper Venom DDR5 RAM",
-        "marca":"Patriot",
+        "marca":"patriot",
         "precio":264773,
-        "tipo": "RAM",
+        "tipo": "ram",
         "stock":7,
         "img":"ramviper.jpg"
     },
     {
         "id":7,
         "nombre":"Intel Core i9-13900K",
-        "marca":"Intel",
+        "marca":"intel",
         "precio":2078667,
-        "tipo": "CPU",
+        "tipo": "cpu",
         "stock":18,
         "img":"corei9.jpg"
     },
     {
         "id":8,
         "nombre":"AMD Procesador de escritorio Ryzen 7 7800X3D",
-        "marca":"AMD",
+        "marca":"amd",
         "precio":1521458,
-        "tipo": "CPU",
+        "tipo": "cpu",
         "stock":14,
         "img":"7800X3D.jpg"
     },
@@ -76,34 +76,34 @@
         "nombre":"be quiet! Dark Power 13 1000W",
         "marca":"bequiet!",
         "precio":865452,
-        "tipo": "PSU",
+        "tipo": "psu",
         "stock":17,
         "img":"bequiet!.jpg"
     },
     {
         "id":10,
         "nombre":"NZXT PSU C850",
-        "marca":"NZXT",
+        "marca":"nzxt",
         "precio":667860,
-        "tipo": "PSU",
+        "tipo": "psu",
         "stock":9,
         "img":"nzxt850.jpg"
     },
     {
         "id":11,
         "nombre":"Asus ROG MAXIMUS Z690 HERO EVA",
-        "marca":"Asus",
+        "marca":"asus",
         "precio":2394815,
-        "tipo": "Motherboard",
+        "tipo": "motherboard",
         "stock":27,
-        "img":"asusZ690.jpg"
+        "img":"AsusZ690.jpg"
     },
     {
         "id":12,
         "nombre":"ASUS ROG Maximus Z790 Hero EVA-02A",
-        "marca":"Asus",
+        "marca":"asus",
         "precio":3394815,
-        "tipo": "Motherboard",
+        "tipo": "motherboard",
         "stock":5,
         "img":"asusZ790.jpg"
     }

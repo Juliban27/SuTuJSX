@@ -1,5 +1,10 @@
 import logoSutu from "../../public/img/logo.png";
 import {CartWidget} from './CartWidget';
+import { Categories } from "./categories";
+import { Link } from 'react-router-dom';
+
+
+
 export const NavBar = () => {
     return (
         <>
@@ -9,7 +14,7 @@ export const NavBar = () => {
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span> 
                 </button>
-                <a href="./index.html" className="nav-item"><img src={logoSutu} alt="logo de SuTu" className="logo-nav"/></a>
+                <Link to={'/'}><img src={logoSutu} alt="logo de SuTu" className="logo-nav"/></Link>
                 <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
                     
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0">
@@ -51,6 +56,8 @@ export const NavBar = () => {
                         </form></li>
                         <li className="nav-item"><a href="./pages/contacto.html">Contacto</a></li>
                         <li className="nav-item"><CartWidget/></li>
+                        <Categories/>
+                        
                     </ul>
                 </div>
             </div>  

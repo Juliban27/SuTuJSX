@@ -2,11 +2,18 @@ import { useRef } from "react";
 
 export const Checkout = () => {
     const formRef = useRef()
+
+    const  handleSubmit = (e) => {
+        e.preventDefeault()
+        const datForm = new FormData(formRef.current) //Paso un formulario HTML a un objeto iterator
+        console.log(datForm)
+        const data = Object.fromEntries(datForm) //Paso un objeto iterator a un objeto simple
+    }
     
     return (
         <div className="Checkout">
             
-            <form action="" ref={formRef}>
+            <form action="" ref={formRef} onSubmit={handleSubmit}>
                 <label htmlFor="">Nombre:</label>
                 <input type="text" name="" id="" />
                 <label htmlFor=""> Apellido:</label>

@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { ItemList } from "./ItemList";
 import { useParams } from "react-router-dom";
 
@@ -14,7 +14,7 @@ useEffect(()=>{
         .then(response => response.json())
         .then(prods => {
             if(cid){
-                const productos = prods.filter(prod => prod.category == cid)
+                const productos = prods.filter(prod => prod.tipo == cid)
                 setProducts(productos)
             }else{
                 setProducts(prods)
@@ -22,6 +22,8 @@ useEffect(()=>{
         })
         .catch((error)=>console.log("Error: "+ error));
     }, [cid])
+
+
 
     return (
     <div className="greeting-container">
