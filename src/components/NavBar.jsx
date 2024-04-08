@@ -1,6 +1,6 @@
 import logoSutu from "../../public/img/logo.png";
 import {CartWidget} from './CartWidget';
-import { Categories } from "./categories";
+
 import { Link } from 'react-router-dom';
 
 
@@ -56,7 +56,7 @@ export const NavBar = () => {
                         </form></li>
                         <li className="nav-item"><a href="./pages/contacto.html">Contacto</a></li>
                         <li className="nav-item"><CartWidget/></li>
-                        <Categories/>
+                        
                         
                     </ul>
                 </div>
