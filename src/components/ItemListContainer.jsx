@@ -1,6 +1,7 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useState } from "react";
 import { ItemList } from "./ItemList";
 import { useParams } from "react-router-dom";
+import { getProducts } from "../firebase/firebase";
 
 
 export const ItemListContainer = () => {
@@ -10,14 +11,16 @@ export const ItemListContainer = () => {
 
 
 useEffect(()=>{
-    fetch('../data/productos.json')
-        .then(response => response.json())
+    //fetch('../data/productos.json')
+        //.then(response => response.json())
+        getProducts()
         .then(prods => {
+            const productos = prods.filter(prod => prod.stock > 0)
             if(cid){
-                const productos = prods.filter(prod => prod.tipo == cid)
-                setProducts(productos)
+                const productosFiltrados = productos.filter(prod => prod.category == cid)
+                setProducts(productosFiltrados)
             }else{
-                setProducts(prods)
+                setProducts(productos)
             }
         })
         .catch((error)=>console.log("Error: "+ error));
@@ -27,7 +30,7 @@ useEffect(()=>{
 
     return (
     <div className="greeting-container">
-        <ItemList products={products}/>
+        <ItemList products={products} plantilla="Item"/>
     </div>
     );
 }

@@ -1,110 +1,110 @@
 [
     {
-        "id":1,
+
         "nombre":"4080ti Founders Edition",
         "marca":"nvidia",
         "precio":5133440,
         "tipo": "gpu",
         "stock":20,
-        "img": "4080FE.jpg"
+        "img": "https://firebasestorage.googleapis.com/v0/b/sutu-8f7bd.appspot.com/o/4080FE.jpg?alt=media&token=f1025553-69ee-4676-b3dd-f7ceaa7e1432"
     },
     {
-        "id":2,
+
         "nombre":"7900xtx 24gb",
         "marca":"amd",
         "precio":3679163,
         "tipo": "gpu",
         "stock":17,
-        "img":"7900xtx.jpg"
+        "img":"https://firebasestorage.googleapis.com/v0/b/sutu-8f7bd.appspot.com/o/7900xtx.jpg?alt=media&token=eba1c69e-d5bb-4f4d-8ce9-26a65b281339"
     },
     {
-        "id":3,
+
         "nombre":"NZXT Kraken Elite",
         "marca":"nzxt",
         "precio":1023526,
         "tipo": "cooler",
         "stock":13,
-        "img":"NZXTKraken.jpg"
+        "img":"https://firebasestorage.googleapis.com/v0/b/sutu-8f7bd.appspot.com/o/NZXTKraken.jpg?alt=media&token=fa1e6153-f353-4031-b5b0-d06560961283"
     },
     {
-        "id":4,
+
         "nombre":"iCUE H150i Elite",
         "marca":"corsair",
         "precio":711133,
         "tipo": "cooler",
         "stock":13,
-        "img":"ICUEH150i.jpg"
+        "img":"https://firebasestorage.googleapis.com/v0/b/sutu-8f7bd.appspot.com/o/ICUEH150i.jpg?alt=media&token=e683ace4-a53a-4bec-ada0-3344454731ea"
     },
     {
-        "id":5,
+
         "nombre":"VENGEANCE DDR5 RAM",
         "marca":"corsair",
         "precio":272676,
         "tipo": "ram",
         "stock":14,
-        "img":"ramcorsair.jpg"
+        "img":"https://firebasestorage.googleapis.com/v0/b/sutu-8f7bd.appspot.com/o/ramcorsair.jpg?alt=media&token=305745ca-aa38-431e-b0f1-cd5c989745c8"
     },
     {
-        "id":6,
+
         "nombre":"Patriot Viper Venom DDR5 RAM",
         "marca":"patriot",
         "precio":264773,
         "tipo": "ram",
         "stock":7,
-        "img":"ramviper.jpg"
+        "img":"https://firebasestorage.googleapis.com/v0/b/sutu-8f7bd.appspot.com/o/ramviper.jpg?alt=media&token=5db9cd6f-177d-4ab5-87a5-8e018fcec9d7"
     },
     {
-        "id":7,
+
         "nombre":"Intel Core i9-13900K",
         "marca":"intel",
         "precio":2078667,
         "tipo": "cpu",
         "stock":18,
-        "img":"corei9.jpg"
+        "img":"https://firebasestorage.googleapis.com/v0/b/sutu-8f7bd.appspot.com/o/corei9.jpg?alt=media&token=cf6396f9-cfb1-4819-abf1-398e76978637"
     },
     {
-        "id":8,
+
         "nombre":"AMD Procesador de escritorio Ryzen 7 7800X3D",
         "marca":"amd",
         "precio":1521458,
         "tipo": "cpu",
         "stock":14,
-        "img":"7800X3D.jpg"
+        "img":"https://firebasestorage.googleapis.com/v0/b/sutu-8f7bd.appspot.com/o/7800X3D.jpg?alt=media&token=818b7cb4-3089-4d94-9a54-568d5aede3ea"
     },
     {
-        "id":9,
+
         "nombre":"be quiet! Dark Power 13 1000W",
         "marca":"bequiet!",
         "precio":865452,
         "tipo": "psu",
         "stock":17,
-        "img":"bequiet!.jpg"
+        "img":"https://firebasestorage.googleapis.com/v0/b/sutu-8f7bd.appspot.com/o/bequiet!.jpg?alt=media&token=d9dbd57b-297f-4fc7-84bc-79dd41679b24"
     },
     {
-        "id":10,
+
         "nombre":"NZXT PSU C850",
         "marca":"nzxt",
         "precio":667860,
         "tipo": "psu",
         "stock":9,
-        "img":"nzxt850.jpg"
+        "img":"https://firebasestorage.googleapis.com/v0/b/sutu-8f7bd.appspot.com/o/nzxt850.jpg?alt=media&token=10052444-63a4-4c82-a37d-c39d329bd6e8"
     },
     {
-        "id":11,
+
         "nombre":"Asus ROG MAXIMUS Z690 HERO EVA",
         "marca":"asus",
         "precio":2394815,
         "tipo": "motherboard",
         "stock":27,
-        "img":"AsusZ690.jpg"
+        "img":"https://firebasestorage.googleapis.com/v0/b/sutu-8f7bd.appspot.com/o/AsusZ690.jpg?alt=media&token=1d19a447-5679-4877-a9bb-3a235329bad4"
     },
     {
-        "id":12,
+
         "nombre":"ASUS ROG Maximus Z790 Hero EVA-02A",
         "marca":"asus",
         "precio":3394815,
         "tipo": "motherboard",
         "stock":5,
-        "img":"asusZ790.jpg"
+        "img":"https://firebasestorage.googleapis.com/v0/b/sutu-8f7bd.appspot.com/o/asusZ790.jpg?alt=media&token=52d752f0-fa30-4af9-b570-4fad515df95a"
     }
 ]

@@ -1,22 +1,18 @@
-import {useState} from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCartShopping } from '@fortawesome/free-solid-svg-icons'
-
+import { useCarritoContext } from '../context/CartContext';
+import { Link } from "react-router-dom"
 export const CartWidget = () => {
-    const [count, setCount] = useState(0)
-
-    const handleAddToCart  =()=>{
-        setCount(count +1)
-        console.log(`Se ha agregado al carrito ${count} veces`)
-
-    }
+    const {getItemQuantity} = useCarritoContext()
     return (
-        <div>
-    <FontAwesomeIcon icon={faCartShopping} />
-            <button onClick={handleAddToCart}>
-            <span>{count}</span>
-            </button>
-        </div>
+            
+                <Link to={'/cart'}>
+                    <button>
+                        <FontAwesomeIcon icon={faCartShopping} />
+                        <span>{getItemQuantity()}</span>
+                    </button>
+                </Link>
+            
     );
 }
 
